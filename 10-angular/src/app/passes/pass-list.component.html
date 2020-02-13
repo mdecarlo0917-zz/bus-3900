@@ -1,0 +1,20 @@
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Pass Number</th>
+                <th>Pass Type</th>
+                <th>Expiration Date</th>
+                <th>Vehicles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{passNumber}}</td>
+                <td>{{passType}}</td>
+                <td>{{expirationDate | date: "shortDate"}}</td>
+                <td>{{vehicles}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
